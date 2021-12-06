@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WebHooks": {
+      "commandName": "Executable",
+      "executablePath": ".\\PhotonSocketServer.exe",
+      "commandLineArgs": "/debug LoadBalancing /config PhotonServer.config",
+      "workingDirectory": "..\\..\\..\\deploy\\bin_Win64"
+    }
+  }
+}
